@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #343434;
+  font-size: 14pt;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica;
+}
+
+article, aside, section, header, footer {
+  display: block;
 }
 
 header > h1 {
@@ -9,11 +15,10 @@ header > h1 {
   margin: 0;
   width: 100%;
   height: 30px;
+  background-color:  #00b454;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #00b454), color-stop(0.00, #228751));
   background: -webkit-linear-gradient(top, #00b454 0%, #228751 100%);
   background: -moz-linear-gradient(top, #00b454 0%, #228751 100%);
-  background: -o-linear-gradient(top, #00b454 0%, #228751 100%);
-  background: -ms-linear-gradient(top, #00b454 0%, #228751 100%);
   background: linear-gradient(top, #00b454 0%, #228751 100%);
 }
 
@@ -41,7 +46,7 @@ nav > ul > li {
   display: inline-block;
   margin: 5px 10px;
   font-family: Gill Sans;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -58,4 +63,248 @@ nav > ul > li > a:hover {
 	content: "";
 	display: block;
 	clear: both;
+  position: relative;
 }
+
+article {
+  display: block;
+  margin: 2em auto;
+  width: 56em;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
+}
+
+article > h1 {
+  color: #78e700;
+  font-size: 2em;
+  font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', Verdana, Geneva, Arial, Helvetica;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
+
+}
+
+article > h1:first-letter {
+  font-size: 1.5em;
+}
+
+article > div {
+  display: block;
+  margin: 10px auto;
+  width: 48em; 
+}
+
+article > div > aside {
+  float: left;
+  width: 12em;
+}
+
+article > div > aside > ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  list-style: none;
+  width: 100%;
+}
+
+article > div > aside > ul > li > a {
+  color: #086ca2; 
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+article > div > aside > ul > li > a:hover {
+  color: #235b79;
+}
+
+article > div > div {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 36em;
+}
+
+article > div > div > section {
+  margin-bottom: 2em;
+}
+
+article > div > div > section > h2 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  color: #00b454;
+  font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', Verdana, Geneva, Arial, Helvetica;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+article > div > div > section > p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  line-height: 1.25em; 
+  color: #bebebe;
+
+  font-size: 1em;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+article > div > div > time {
+  float: right;
+  margin-bottom: 40px;
+  color: #8a8a8a;
+  font-size: 0.8em;
+  font-family: Georgia, Constantia, Hoefler Text, serif;
+  font-weight: normal;
+}
+
+body > div {
+  padding-bottom: 80px;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
+
+}
+body > aside {
+  padding: 40px 0;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
+
+}
+aside > div {
+  display: block;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+aside > div > section {
+  float: left;
+  margin: 0 5px;
+  margin-top: 12px;
+  width: 310px;
+  height: 280px;
+}
+
+aside > div > section > h3 {
+  margin: 5px;
+  padding: 0;
+  color: #00b454;
+  font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', Verdana, Geneva, Arial, Helvetica;
+  font-size: 1.1em;
+
+}
+
+aside > div > section > div {
+  display: block;
+  height: 210px;
+}
+
+aside > div > section > div > ul {
+  margin: 10px 5px;
+  padding: 0;
+  list-style: none;
+}
+
+aside > div > section > div > ul.github {
+  list-style: square;
+  margin-left: 8px;
+}
+
+aside > div > section > div > ul > li {
+  margin: 5px 0;
+}
+
+aside > div > section > div > ul.github > li {
+  margin-left: 15px;
+}
+
+aside > div > section > div > ul > li > a {
+  color: #bebebe;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+aside > div > section > div > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+aside > div > section > div > ul.badges > li {
+  display: inline;
+  margin: 2px;
+}
+
+aside > div > section > div > ul.badges > li > img {
+  width: 48px;
+  height: 48px;
+}
+
+li[data-lang="objc"] {
+  color: #43beff;
+}
+
+li[data-lang="javascript"] {
+  color: #f15501;
+}
+
+li[data-lang="ruby"] {
+  color: #903536;
+}
+
+aside > div > section > p {
+  margin: 5px;
+  margin-right: 10px;
+  padding: 0;
+  text-align: right;
+}
+
+aside > div > section > p > a {
+  color: #086ca2; 
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+aside > div > section > p > a:hover {
+  color: #235b79;
+}
+
+
+
+
+footer {
+  width: 100%;
+  height: 2em;
+} 
+
+footer > p {
+  width: 100%;
+  line-height: 100%;
+  color: #ff3900;
+  font-size: 0.9em;
+  font-family: Baskerville, Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  font-style: italic;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+footer > p > a {
+  color: #ff3900;
+
+}
+
+footer > p > a:hover {
+  color: #bf5030;
+}
+
