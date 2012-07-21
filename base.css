@@ -15,11 +15,10 @@ header > h1 {
   margin: 0;
   width: 100%;
   height: 30px;
+  background-color:  #00b454;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #00b454), color-stop(0.00, #228751));
   background: -webkit-linear-gradient(top, #00b454 0%, #228751 100%);
   background: -moz-linear-gradient(top, #00b454 0%, #228751 100%);
-  background: -o-linear-gradient(top, #00b454 0%, #228751 100%);
-  background: -ms-linear-gradient(top, #00b454 0%, #228751 100%);
   background: linear-gradient(top, #00b454 0%, #228751 100%);
 }
 
