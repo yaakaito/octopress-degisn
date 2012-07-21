@@ -68,42 +68,89 @@ nav > ul > li > a:hover {
 article {
   display: block;
   margin: 2em auto;
-  width: 48em;
+  width: 56em;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
 }
 
 article > h1 {
   color: #78e700;
   font-size: 2em;
+  -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+  -o-box-shadow: 0 1px 0 #444444;
+  -ms-box-shadow: 0 1px 0 #444444;
+  box-shadow: 0 1px 0 #444444;
+  border-bottom: 1px solid #202020;
+
 }
 
 article > h1:first-letter {
   font-size: 1.5em;
 }
 
-article > aside {
+article > div {
+  display: block;
+  margin: 10px auto;
+  width: 48em; 
+}
+
+article > div > aside {
   float: left;
   width: 12em;
 }
 
-article > div {
+article > div > aside > ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  list-style: none;
+  width: 100%;
+}
+
+article > div > aside > ul > li > a {
+  color: #086ca2; 
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', Verdana, Geneva, Arial, Helvetica;
+  text-decoration: none;
+}
+
+article > div > aside > ul > li > a:hover {
+  color: #235b79;
+}
+
+article > div > div {
+  margin: 0;
+  padding: 0;
   float: right;
   width: 36em;
 }
 
-article > div > section {
+article > div > div > section {
   margin-bottom: 2em;
 }
 
-article > div > section > h2 {
+article > div > div > section > h2 {
+  margin-top: 0.2em;
   margin-bottom: 0.2em;
   color: #00b454;
+  font-family: 'ヒラギノ角ゴ Pro W6', 'Hiragino Kaku Gothic Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', Verdana, Geneva, Arial, Helvetica;
   font-size: 1.5em;
+  font-weight: bold;
 }
 
-article > div > section > p {
+article > div > div > section > p {
   margin-top: 0.2em;
-  margin-bottom: 0.2em; 
+  margin-bottom: 0.2em;
+  line-height: 1.25em; 
   color: #bebebe;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica;
   font-size: 1em;
   word-break: break-all;
+  word-wrap: break-word;
 }
+
+
